@@ -48,7 +48,7 @@ header a span i{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     font-family: 'Ubuntu';
     flex-direction: column;
@@ -64,7 +64,7 @@ header a span i{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     font-family: 'Ubuntu';
     flex-direction: column;
@@ -73,12 +73,16 @@ header a span i{
     grid-row:3/5 ;
 }
 
+.copa i{
+    margin-bottom: 20px;
+}
+
 .banheiro{
     background-color: #848d00;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     font-family: 'Ubuntu';
     flex-direction: column;
@@ -92,7 +96,7 @@ header a span i{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     font-family: 'Ubuntu';
     flex-direction: column;
@@ -105,7 +109,7 @@ header a span i{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     font-family: 'Ubuntu';
     flex-direction: column;
@@ -119,7 +123,7 @@ header a span i{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     font-family: 'Ubuntu';
     flex-direction: column;
@@ -138,21 +142,21 @@ header a span i{
     padding-left:70px ;
     padding-right:70px ;
     height: 50px;
-    background-color: red;
+    background-color: rgb(255, 145, 0);
     border-radius: 8px;
-
+    overflow: hidden;
 }
 
 i{
     color: black;
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 10px;
 }
 
 .entrada-sala{
     display: none;
     background-color: var(--primary-color);
-    padding: 40px;
+    padding: 20px;
     position: absolute;
     bottom: 10px;
     left: 27%;
@@ -162,7 +166,7 @@ i{
 .entrada-cozinha{
     display: none;
     background-color: var(--primary-color);
-    padding: 40px;
+    padding: 20px;
     position: absolute;
     top: 10px;
     right: 25%;
@@ -172,7 +176,7 @@ i{
 .entrada-dentro{
     display: none;
     background-color: var(--primary-color);
-    padding: 40px;
+    padding: 20px;
     position: absolute;
     bottom: 20%;
     left: 20%;

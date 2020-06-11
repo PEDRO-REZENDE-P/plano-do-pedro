@@ -2,7 +2,7 @@ $("#send").click(autenticar)
 var url_atul = window.location.href
 
 const name = "Pedro"
-const pass = "1234"
+const pass = "123456"
 
 function autenticar(){
     var nome = $("#nome")
