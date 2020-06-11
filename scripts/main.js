@@ -1,4 +1,5 @@
 $("#send").click(autenticar)
+var url_atul = window.location.href
 
 const name = "Pedro"
 const pass = "1234"

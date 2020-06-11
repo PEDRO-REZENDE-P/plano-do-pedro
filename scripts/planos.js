@@ -20,17 +20,20 @@
 
 
     
-    if( url_atual == "https://davi-rezende.github.io/pj/main.html#cozinha"){
+    if( url_atual == `${url_atual}/main.html#cozinha`){
         $(".entrada-cozinha").fadeToggle(2000)
         
         
-    }else if(url_atual == "https://davi-rezende.github.io/pj/main.html#sala"){
+    }else if(url_atual == `${url_atual}/main.html#cozinha`){
         $(".entrada-sala").fadeToggle(2000)
 
-    }else if(url_atual == "https://davi-rezende.github.io/pj/main.html#dentro"){
+    }else if(url_atual == `${url_atual}/main.html#cozinha`){
         $(".entrada-dentro").fadeToggle(2000)
 
     }
+
+    console.log(url_atual);
+    
 
 
     
