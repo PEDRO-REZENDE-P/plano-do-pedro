@@ -7,11 +7,9 @@ const pass = "1234"
 function autenticar(){
     var nome = $("#nome")
     var senha = $("#senha")
-
-    console.log(nome, senha);
     
     if(nome.val() == name && senha.val() == pass){
-        window.open("../planos.html", "_self");
+        window.open("https://pedro-rezende-p.github.io/plano-do-pedro/planos.html", "_self");
     }else{
         mensagemErro();
     }    

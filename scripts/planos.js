@@ -20,14 +20,14 @@
 
 
     
-    if( url_atual == `${url_atual}/main.html#cozinha`){
+    if( url_atual == `https://pedro-rezende-p.github.io/plano-do-pedro/main.html#cozinha`){
         $(".entrada-cozinha").fadeToggle(2000)
         
         
-    }else if(url_atual == `${url_atual}/main.html#cozinha`){
+    }else if(url_atual == `https://pedro-rezende-p.github.io/plano-do-pedro/main.html#sala`){
         $(".entrada-sala").fadeToggle(2000)
 
-    }else if(url_atual == `${url_atual}/main.html#cozinha`){
+    }else if(url_atual == `https://pedro-rezende-p.github.io/plano-do-pedro/main.html#dentro`){
         $(".entrada-dentro").fadeToggle(2000)
 
     }
@@ -39,15 +39,7 @@
     
     
 
-    
-        
-    
 
-    // $(".copa").click(()=>{
-    //     console.log("to aqui");
-        
-    // })
-    
 
         
     
